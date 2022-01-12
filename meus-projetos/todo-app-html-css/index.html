@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <link rel="stylesheet" href="css/style.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Todo App HTML/CSS</title>
+</head>
+<body>
+    <header>
+        <section class="logo w50">
+            <h1>Todo App HTML/CSS</h1>
+            <nav class="desktop">
+                <ul>
+                    <li><a href="#">Workspace</a></li>
+                    <li><a href="#">Dashboard</a></li>
+                </ul>
+            </nav>
+            <nav class="mobile">
+                <ul>
+                    <li><a href="#">Workspace</a></li>
+                    <li><a href="#">Dashboard</a></li>
+                </ul>
+            </nav>
+            <div class="clear"></div>
+        </section>
+        <section class="search w50">
+            <div class="bell"></div>
+            <form>
+                <input type="text" name="search" id="search" placeholder="Search policies...">
+            </form>
+        </section>
+        <div class="clear"></div>
+    </header>
+    <main>
+        <aside>
+            <div class="departments sidemenu closed-menu">
+                Departments
+                <div class="hidden-menu">
+                    <div class="hidden-menu-single"><p>Teste</p></div>
+                    <div class="hidden-menu-single"><p>Teste 2</p></div>
+                    <div class="hidden-menu-single"><p>Teste 3</p></div>
+                </div>
+            </div>
+            <div class="bookmarked sidemenu opened-menu">
+                Bookmarked policies
+                <div class="">
+                    <div class="hidden-menu-single">
+                        <p class="mini-infos">something</p>
+                        <p>Teste</p>
+                    </div>
+                    <div class="hidden-menu-single">
+                        <p class="mini-infos">something</p>
+                        <p>Teste 2</p>
+                    </div>
+                    <div class="hidden-menu-single">
+                        <p class="mini-infos">something</p>
+                        <p>Teste 3</p>
+                    </div>
+                </div>
+            </div>
+        </aside>
+        <section class="main-section">
+            <div class="header-main">
+                <div class="members">
+                    <img src="" alt="member-img">
+                    <a href="#">+ New member...</a>
+                </div>
+                <div class="add-filter">
+                    <a class="btn1" href="#">Add</a>
+                    <a class="btn2" href="#">Filter</a>
+                </div>
+            </div>
+            <div class="box-main">
+                <article class="todo box">
+                    <h2>TO DO</h2>
+                    <span>...</span>
+                    <div class="todo-single box-single">
+                        <h3 class="mark-red">NEEDS REVIEW</h3>
+                        <span class="btn3">a</span>
+                        <div class="clear"></div>
+                        <p>Lorem ipsum</p>
+                        <p><span class="left-info">Lorem</span> <span class="right-info"> Due Aug 9</span></p>
+                    </div> <!--Box single-->
+                    <div class="todo-single box-single">
+                        <h3 class="mark-purple">UNDER REVIEW</h3>
+                        <span class="btn3">a</span>
+                        <div class="clear"></div>
+                        <p>Lorem ipsum</p>
+                        <p><span class="left-info">Lorem</span> <span class="right-info"> Due Aug 9</span></p>
+                    </div> <!--Box single-->
+                </article>
+                <article class="in-progress box">
+                    <h2>IN PROGRESS</h2>
+                    <span>...</span>
+                    <div class="in-progress-single box-single">
+                        <h3 class="mark-red">Proposed</h3>
+                        <span class="btn3">a</span>
+                        <div class="clear"></div>
+                        <p>Lorem ipsum</p>
+                        <p><span class="left-info">Lorem</span> <span class="right-info"> Due Aug 9</span></p>
+                    </div> <!--Box single-->
+                </article>
+                <article class="done box">
+                    <h2>DONE</h2>
+                    <span>...</span>
+                    <div class="done-single box-single">
+                        <h3 class="mark-green">PENDING APPROVAL</h3>
+                        <span class="btn3">a</span>
+                        <p>Lorem ipsum</p>
+                        <p><span class="left-info">Lorem</span> <span class="right-info"> Due Aug 9</span></p>
+                        <div class="clear"></div>
+                    </div> <!--Box single-->
+                    <div class="done-single box-single">
+                        <h3 class="mark-blue">APPROVED</h3>
+                        <span class="btn3">a</span>
+                        <p>Lorem ipsum</p>
+                        <p><span class="left-info">Lorem</span> <span class="right-info"> Due Aug 9</span></p>
+                        <div class="clear"></div>
+                    </div> <!--Box single-->
+                </article>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>Feito por Luis Felipe</p>
+        <p>Eu disse que conseguia fazer! :)</p>
+    </footer>
+</body>
+</html>
