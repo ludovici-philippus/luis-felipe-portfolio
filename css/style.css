@@ -59,6 +59,18 @@ h1, h2, h3, h4, h5, h6{
 	align-items: flex-end;
 }
 
+.btn-whatsapp{
+	display: inline-block;
+	position: fixed;
+	bottom: 16px;
+	right: 16px;
+	background-image: url("../images/WhatsApp-icon.png");
+	background-size: contain;
+	width: 48px;
+	height: 48px;
+
+}
+
 header{
 	padding: 20px 0;
 	background-image: url("../images/bg-header.jpg");
